@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".YoProfileActivity"
+    tools:showIn="@layout/activity_yo_profile">
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include layout="@layout/profile_head_design"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="OTHER ACTIONS"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/pink"
+                android:layout_height="match_parent"/>
+            <include layout="@layout/quick_actions_2"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

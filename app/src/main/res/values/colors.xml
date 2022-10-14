@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="myBlue">#5091f9</color>
+<!--    <color name="colorPrimaryDark">#5091f9</color>-->
+<!--    <color name="colorAccent">#5091f9</color>-->
+    <color name="colorPrimary">#88A943</color>
+    <color name="colorPrimaryDark">#88A943</color>
+    <color name="colorAccent">#88A943</color>
+
+<!--    <color name="colorPrimary">#3898E7</color>-->
+<!--    <color name="colorPrimaryDark">#3898E7</color>-->
+<!--    <color name="colorAccent">#3898E7</color>-->
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#3F51B5</color>
+    <color name="black">#000000</color>
+    <color name="search">#2E2D2D</color>
+    <color name="search_drawable">#3898E7</color>
+    <color name="color_test">#EEE2E0E0</color>
+    <color name="phone_color">#EE270D3C</color>
+
+    <color name="pink">#FF4081</color>
+
+    <!-- Material Design Color - Color palette -->
+    <color name="red_primary">#F44336</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen4">#9FA39F</color>
+    <color name="dot_dark_screen2">#9FA39F</color>
+    <color name="dot_dark_screen1">#9FA39F</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen3">#9FA39F</color>
+    <color name="dot_light_screen5">#9FA39F</color>
+    <color name="colorgrey">#f2f3f5</color>
+
+    <color name="icon_grey">#B8B7B7</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimary</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen1</item>
+    </array>
+</resources>
